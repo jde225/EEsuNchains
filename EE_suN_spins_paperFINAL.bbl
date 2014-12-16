@@ -1,0 +1,172 @@
+\begin{thebibliography}{21}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Amico et~al.}(2008)\citenamefont{Amico, Fazio,
+  Osterloh, and Vedral}}]{Amico2008:Entanglement}
+\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Amico}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Fazio}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Osterloh}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Vedral}},
+  \bibinfo{journal}{Rev. Mod. Phys.} \textbf{\bibinfo{volume}{80}},
+  \bibinfo{pages}{517} (\bibinfo{year}{2008}).
+
+\bibitem[{\citenamefont{Eisert et~al.}(2010)\citenamefont{Eisert, Cramer, and
+  Plenio}}]{Eisert2010:AreaLaws}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Eisert}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Cramer}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.~B.} \bibnamefont{Plenio}},
+  \bibinfo{journal}{Rev. Mod. Phys.} \textbf{\bibinfo{volume}{82}},
+  \bibinfo{pages}{277} (\bibinfo{year}{2010}).
+
+\bibitem[{\citenamefont{Holzhey et~al.}(1994)\citenamefont{Holzhey, Larsen, and
+  Wilczek}}]{Holzhey1994:GeometricEntropyCFT}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Holzhey}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Larsen}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Wilczek}},
+  \bibinfo{journal}{Nucl. Phys. B} \textbf{\bibinfo{volume}{424}},
+  \bibinfo{pages}{443 } (\bibinfo{year}{1994}).
+
+\bibitem[{\citenamefont{Calabrese and Cardy}(2004)}]{Calabrese2004:EEandQFT}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Calabrese}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Cardy}}, \bibinfo{journal}{J.
+  Stat. Mech.} \textbf{\bibinfo{volume}{2004}}, \bibinfo{pages}{P06002}
+  (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{Korepin}(2004)}]{Korepin2004:thermal}
+\bibinfo{author}{\bibfnamefont{V.~E.} \bibnamefont{Korepin}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{92}},
+  \bibinfo{pages}{096402} (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{Cardy and Calabrese}(2010)}]{Cardy2010:Unusual}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Cardy}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Calabrese}},
+  \bibinfo{journal}{J. Stat. Mech.} \textbf{\bibinfo{volume}{2010}},
+  \bibinfo{pages}{P04023} (\bibinfo{year}{2010}).
+
+\bibitem[{\citenamefont{Laflorencie et~al.}(2006)\citenamefont{Laflorencie,
+  S{\o}rensen, Chang, and Affleck}}]{laflorencie2006boundary}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Laflorencie}},
+  \bibinfo{author}{\bibfnamefont{E.~S.} \bibnamefont{S{\o}rensen}},
+  \bibinfo{author}{\bibfnamefont{M.-S.} \bibnamefont{Chang}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Affleck}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{96}},
+  \bibinfo{pages}{100603} (\bibinfo{year}{2006}).
+
+\bibitem[{\citenamefont{Calabrese et~al.}(2010)\citenamefont{Calabrese,
+  Campostrini, Essler, and Nienhuis}}]{Calabrese2010:ParityEffects}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Calabrese}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Campostrini}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Essler}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Nienhuis}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{104}},
+  \bibinfo{pages}{095701} (\bibinfo{year}{2010}).
+
+\bibitem[{\citenamefont{Fagotti and
+  Calabrese}(2011)}]{Fagotti2011:UniversalParity}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Fagotti}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Calabrese}},
+  \bibinfo{journal}{Journal of Statistical Mechanics: Theory and Experiment}
+  \textbf{\bibinfo{volume}{2011}}, \bibinfo{pages}{P01017}
+  (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Affleck}(1986)}]{Affleck1986:CriticalExpSUN}
+\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Affleck}},
+  \bibinfo{journal}{Nucl. Phys. B} \textbf{\bibinfo{volume}{265}},
+  \bibinfo{pages}{409 } (\bibinfo{year}{1986}).
+
+\bibitem[{\citenamefont{Affleck}(1988)}]{Affleck1988:CriticalSUN}
+\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Affleck}},
+  \bibinfo{journal}{Nucl. Phys. B} \textbf{\bibinfo{volume}{305}},
+  \bibinfo{pages}{582 } (\bibinfo{year}{1988}).
+
+\bibitem[{\citenamefont{F\"{u}hringer et~al.}(2008)\citenamefont{F\"{u}hringer,
+  Rachel, Thomale, Greiter, and Schmitteckert}}]{Fuhringer2008:DMRGSUN}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{F\"{u}hringer}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Rachel}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Thomale}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Greiter}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Schmitteckert}},
+  \bibinfo{journal}{Annalen der Physik} \textbf{\bibinfo{volume}{17}},
+  \bibinfo{pages}{922} (\bibinfo{year}{2008}).
+
+\bibitem[{\citenamefont{Humeniuk and
+  Roscilde}(2012)}]{Humeniuk2012:ExtendedEnsemble}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Humeniuk}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Roscilde}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{86}},
+  \bibinfo{pages}{235116} (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Affleck and Qin}(1999)}]{Affleck1999:LogCorrections}
+\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Affleck}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Qin}}, \bibinfo{journal}{J.
+  Phys. A} \textbf{\bibinfo{volume}{32}}, \bibinfo{pages}{7815}
+  (\bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Messio and Mila}(2012)}]{Messio2012:entropyDep}
+\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Messio}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Mila}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{109}},
+  \bibinfo{pages}{205306} (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Rachel et~al.}(2009)\citenamefont{Rachel, Thomale,
+  F\"uhringer, Schmitteckert, and Greiter}}]{Rachel2009:SpinonConfinement}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Rachel}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Thomale}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{F\"uhringer}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Schmitteckert}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Greiter}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{80}},
+  \bibinfo{pages}{180420} (\bibinfo{year}{2009}).
+
+\bibitem[{\citenamefont{Sylju\aa{}sen and
+  Sandvik}(2002)}]{Sandvik2002:DirectedLoops}
+\bibinfo{author}{\bibfnamefont{O.~F.} \bibnamefont{Sylju\aa{}sen}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.~W.}
+  \bibnamefont{Sandvik}}, \bibinfo{journal}{Phys. Rev. E}
+  \textbf{\bibinfo{volume}{66}}, \bibinfo{pages}{046701}
+  (\bibinfo{year}{2002}).
+
+\bibitem[{\citenamefont{Sandvik}(2010)}]{sandvik2010:vietri}
+\bibinfo{author}{\bibfnamefont{A.~W.} \bibnamefont{Sandvik}},
+  \bibinfo{journal}{AIP Conf. Proc.} \textbf{\bibinfo{volume}{1297}},
+  \bibinfo{pages}{135} (\bibinfo{year}{2010}).
+
+\bibitem[{\citenamefont{Frischmuth et~al.}(1999)\citenamefont{Frischmuth, Mila,
+  and Troyer}}]{frischmuth1999:su4}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Frischmuth}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Mila}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Troyer}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{82}},
+  \bibinfo{pages}{835} (\bibinfo{year}{1999}),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.82.835}.
+
+\bibitem[{\citenamefont{Melko et~al.}(2010)\citenamefont{Melko, Kallin, and
+  Hastings}}]{Melko2010:FiniteTRenyi}
+\bibinfo{author}{\bibfnamefont{R.~G.} \bibnamefont{Melko}},
+  \bibinfo{author}{\bibfnamefont{A.~B.} \bibnamefont{Kallin}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.~B.}
+  \bibnamefont{Hastings}}, \bibinfo{journal}{Phys. Rev. B}
+  \textbf{\bibinfo{volume}{82}}, \bibinfo{pages}{100409}
+  (\bibinfo{year}{2010}).
+
+\bibitem[{\citenamefont{Hastings et~al.}(2010)\citenamefont{Hastings,
+  Gonz\'alez, Kallin, and Melko}}]{Hastings2010:MeasuringRenyiQMC}
+\bibinfo{author}{\bibfnamefont{M.~B.} \bibnamefont{Hastings}},
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Gonz\'alez}},
+  \bibinfo{author}{\bibfnamefont{A.~B.} \bibnamefont{Kallin}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{R.~G.} \bibnamefont{Melko}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{104}},
+  \bibinfo{pages}{157201} (\bibinfo{year}{2010}).
+
+\end{thebibliography}

@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: EE_suN_spins_paperFINAL.aux
+The style file: apsrev.bst
+Database file #1: EE_suN_spins_paperFINALNotes.bib
+Database file #2: EE_suN_spins_paperFINAL.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 21 entries,
+            3411 wiz_defined-function locations,
+            1302 strings with 13968 characters,
+and the built_in function-call counts, 14650 in all, are:
+= -- 858
+> -- 461
+< -- 67
++ -- 364
+- -- 112
+* -- 1968
+:= -- 1593
+add.period$ -- 21
+call.type$ -- 21
+change.case$ -- 84
+chr.to.int$ -- 21
+cite$ -- 21
+duplicate$ -- 1304
+empty$ -- 1241
+format.name$ -- 293
+if$ -- 2800
+int.to.chr$ -- 1
+int.to.str$ -- 22
+missing$ -- 203
+newline$ -- 78
+num.names$ -- 63
+pop$ -- 343
+preamble$ -- 1
+purify$ -- 84
+quote$ -- 0
+skip$ -- 564
+stack$ -- 0
+substring$ -- 561
+swap$ -- 1031
+text.length$ -- 56
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 126
+warning$ -- 0
+while$ -- 63
+width$ -- 0
+write$ -- 225
