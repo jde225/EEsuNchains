@@ -43,7 +43,7 @@ We present a study of the scaling behavior of the R\'{e}nyi entanglement entropy
 
 Entanglement is a fascinating aspect of many-body quantum systems.~\cite{Amico2008:Entanglement}  It describes how a many-body wave function cannot in general be written as a tensor product of individual single-particle wavefunctions.  The degree to which a wave function fails to be written as a product state of two subsystem wavefunctions can be quantified in terms of the entanglement entropy (EE) between these two subsystems. In one dimension, gapped quantum systems have an EE that stays constant as the size of the subsystem is increased. This is consistent with the so-called ``area law'' which states that the EE grows with the area of the boundary of the subsystem.\cite{Eisert2010:AreaLaws} However in gapless conformally invariant systems, the EE violates the area law and exhibits a logarithmic divergence with a prefactor given by the central charge. \cite{Holzhey1994:GeometricEntropyCFT,Calabrese2004:EEandQFT,Korepin2004:thermal} The logarithmic growth of entanglement has been observed in a number of quantum critical lattice models whose scaling limit is described by a CFT.  
 
-The entanglement entropy also has sub-leading terms which contain universal information beyond the central charge. Namely, one can find power law dependencies on the subsystem size with exponents given by the scaling dimensions of various conformal field theory (CFT) operators.\cite{Cardy2010:Unusual}  Indeed, such universal contributions have been observed both numerically\cite{laflorencie2006boundary,Calabrese2010:ParityEffects} and analytically.\cite{Fagotti2011:UniversalParity}  These sub-leading terms in the entanglement entropy can be used to characterize the operator content of the underlying CFT of various lattice models.  
+The entanglement entropy also has sub-leading terms which contain universal information beyond the central charge. Namely, one can find power law dependencies on the subsystem size with exponents given by the scaling dimensions of various conformal field theory (CFT) operators.\cite{Cardy2010:Unusual}  Indeed, such universal contributions have been observed both numerically\cite{laflorencie2006boundary,Calabrese2010:ParityEffects} and analytically.\cite{Fagotti2011:UniversalParity}  These sub-leading terms in the entanglement entropy can be used to characterize the operator content of the underlying CFT of various lattice models.\cite{Xavier2012:FiniteSizeCorrectionsEE, Xavier2011:ParitySpinS,Dalmonte2011:EstimatingOrder}  
 
 In this work we consider the R\'{e}nyi entanglement entropy (defined in Sec. \ref{sec:data})  in the context of SU($N$) Heisenberg antiferromagnetic spin chains. We are able to completely characterize the underlying CFT for this model based on the central charge from the leading log term, as well as the operator content contained in the sub-leading oscillatory terms which decay as a power law.  For completeness we also demonstrate the universal behavior of the thermal R\'{e}nyi entropy which equally allows for extraction of the central charge.
 
@@ -56,13 +56,17 @@ We consider the following Hamiltonian with the spin on each lattice site transfo
 		H_{\Pi} = J\sum_{<ij>}\sum^{N-1}_{\alpha ,\beta =0} |\beta_{i}\alpha_{j}\rangle\langle\alpha_{i}\beta_{j}|
 \label{eq:PermutationHamiltonian}
 \end{equation}}
-This model consists of a sum of bond operators that permute nearest neighbor spins (colors) which are labeled by numbers 0 through $N-1$. $H_\Pi$ reduces to the spin-$1/2$ Heisenberg model when $N=2$, and provides a natural extension to larger $N$.  
+This exactly soluable model\cite{Sutherland1975:MulticompModel} consists of a sum of bond operators that permute nearest neighbor spins (colors) which are labeled by numbers 0 through $N-1$.  $H_\Pi$ reduces to the spin-$1/2$ Heisenberg model when $N=2$, and provides a natural extension to larger $N$.
 
 In this paper we will consider the case when $J$ is positive (antiferromagnetic) and spins tend to anti-align with one another.  In our choice of representation it takes $N$ lattice sites to form an SU($N$) singlet.  For this reason the ground state is non-degenerate when the chain length is evenly divisible by $N$, since spins can group together into singlets without any left over.  The ground state is described by the SU($N$)$_{1}$ WZW model, with central charge $c=N-1$. \cite{Affleck1986:CriticalExpSUN,Affleck1988:CriticalSUN}
 
 %The SU($N$)$_{1}$ WZW conformal field theory has a central charge $c=N-1$ and primary fields $\phi_{a}$ : $a \in [1,N-1]$, each with scaling dimension $\Delta_{a}=a-a^{2}/N$.\cite{Bouwknegt1999:ExclusionCFTWZW}
  
-Entanglement in this class of models has previously been studied using DMRG,\cite{Fuhringer2008:DMRGSUN} though the universal subleading oscillations were not present in the von Neumann entanglement entropy under closed boundary conditions.  Here we will study in detail the scaling form of these oscillations which are induced in the R\'{e}nyi entanglement entropy under both open and closed boundaries. We will demonstrate quantitatively that the decay of these oscillations contain interesting information about the scaling dimensions of operators in the WZW field theory.
+Models with SU($N$) symmetry are of both theoretical and experimental interest, since it has been shown that ultra cold atoms in optical traps can give rise to this symmetry.\cite{Gorshkov2010:TwoOrbitalSUN}  In fact, the model we consider here can be obtained from the SU($N$) Hubbard model at 1/$N$ filling in the limit of large on-site repulsiton, see [\onlinecite{Manmana2011:SUNmagnetismUCA}] for a numerical study of the mott transition.
+
+Entanglement in this class of models has previously been studied using DMRG,\cite{Fuhringer2008:DMRGSUN} though the universal subleading oscillations were not present in the von Neumann entanglement entropy under closed boundary conditions.  Other studies\cite{Frischmuth1999:ThermoSU4,Messio2012:entropyDep} found oscillations in spin-spin correlation function for different values of $N$, verifying that the periodicity is given by 2$\pi/N$.  In fact, one can make a precise connection between entanglement and spin correlations in one dimension.\cite{Song2010:EntanglementFluctuations}
+
+Here we will study in detail the scaling form of these oscillations which are induced in the R\'{e}nyi entanglement entropy under both open and closed boundaries. We will demonstrate quantitatively that the decay of these oscillations contain interesting information about the scaling dimensions of operators in the WZW field theory.
 
 \begin{figure}[!t]
 \centerline{\includegraphics[angle=0,width=0.95\columnwidth]{EDvsQMCsu2.pdf}}
@@ -106,7 +110,7 @@ Where $\eta=1,2$ is for periodic and open boundary conditions, respectively.  Th
 When $N=2$, there is just one primary field with conformal weight $\Delta_{1}$.  In the case of higher $N$, there are primary fields with less relevant scaling dimensions and they contribute less to the oscillatory behavior.  In the periodic case, oscillations are very small, and one oscillatory term from the most relevant primary field is sufficient to describe the data.  However, precisely because the oscillations are small, we are unable to reliably extract the scaling dimensions from our numerical fits (though it must be included for reliable extraction of the central charge).  Higher values of the R\'{e}nyi index indeed make it easier to extract exponents from the oscillations; however, this route is impractical since finite size effects become greater for larger $\alpha$.  The benefit of considering periodic boundaries is that it leads to very accurate estimates of the central charge with minimal finite size effects, as shown in Fig. \ref{fig:REE} and Table \ref{tab:central}.  
 \begin{figure}
 \centerline{\includegraphics[angle=0,width=1.0\columnwidth]{EE.pdf}}
-\caption{The REE as a function of the subsystem size ($l_{A}$) with periodic boundary conditions.  We set the R\'{e}nyi index $\alpha = 2$ and the total chain lengths are integer multiples of $N$.  Oscillations have Fermi momentum $k_{F}=\pi / N$. Solid lines are best fits to the CFT scaling form.  In the right inset we have subtracted the oscillatory and constant pieces of the REE, and plotted it against $S_{\alpha}^{\mathrm{log}}(l_{A})/c$.  This is plotted on top of lines with slope $N-1$.  The best fit values for the central charges are given in Table \ref{tab:central}.}
+\caption{REE as a function of the subsystem size ($l_{A}$) with periodic boundary conditions.  We set the R\'{e}nyi index $\alpha = 2$ and the total chain lengths are integer multiples of $N$.  Oscillations have Fermi momentum $k_{F}=\pi / N$. Solid lines are best fits to the CFT scaling form.  In the right inset we have subtracted the oscillatory and constant pieces of the REE, and plotted it against $S_{\alpha}^{\mathrm{log}}(l_{A})/c$.  This is plotted on top of lines with slope $N-1$.  The best fit values for the central charges are given in Table \ref{tab:central}.}
 \label{fig:REE}
 \end{figure}
 \begin{table}
@@ -253,7 +257,7 @@ It is useful to introduce a pictorial representation of a configuration in the S
 
 \section{QMC sampling procedure}\label{app_b}
 
-Previous works~\cite{frischmuth1999:su4,Messio2012:entropyDep} have simulated $H_\Pi$ by Monte-Carlo methods. Below we summarize how we applied the SSE to $H_\Pi$, Eq. (\ref{eq:PermutationHamiltonian}), and how MC updates of the configurations were carried out. 
+Previous works~\cite{Frischmuth1999:ThermoSU4,Messio2012:entropyDep} have simulated $H_\Pi$ by Monte-Carlo methods. Below we summarize how we applied the SSE to $H_\Pi$, Eq. (\ref{eq:PermutationHamiltonian}), and how MC updates of the configurations were carried out. 
 
 In order to avoid minus signs associated with diagonal matrix elements in the SSE (see appendix A), we shift the Hamiltonian by the unit matrix
 {\allowdisplaybreaks
@@ -300,16 +304,9 @@ is the reduced density matrix, given by tracing over the basis states in the $B$
 S_{\alpha}(\rho_{A})= \frac{1}{1-\alpha}\log\frac{Z^{(\alpha)}_{A}}{Z^{\alpha}}
 \label{eq:RenyiEntropy2}
 \end{equation}
-where $Z^{\alpha}$ consists of $\alpha$ copies of the regular partition function, and $Z^{(\alpha)}_{A}$ has a modified trace condition in the $A$ subregion, which extends over all copies.  An example of each type of configuration is given in Fig. \ref{fig:ExtendedEnsemble} for the case $\alpha=2$.  To compute the Monte Carlo average of the ratio of partition functions, one preforms importance sampling of the extended ensemble of configurations contained in $Z^{\alpha} \cup Z^{(\alpha)}_{A}$.  Transitions between ensembles can be made when the spin matching condition is satisfied in the $A$ subregion.  In this way, the ratio is given by the number of Monte Carlo steps preformed in $Z^{(\alpha)}_{A}$, divided by the number of Monte Carlo steps preformed in $Z^{\alpha}$
-{\allowdisplaybreaks
-\begin{equation}
-\Bigg\langle\frac{Z^{(\alpha)}_{A}}{Z^{\alpha}}\Bigg\rangle=\Bigg\langle\frac{MC_{step}(Z^{(\alpha)}_{A})}{MC_{step}(Z^{\alpha})}\Bigg\rangle_{MC}	 
-\label{eq:RatioAverage}
-\end{equation}}Sampling the extended ensemble in the SSE is particularly straightforward, since transitions between ensembles occurs with probability 1 whenever the spin matching condition is satisfied in the $A$ subregion.  This is due to the fact that the two configurations have identical weights (number of bond operators), though this idea can be extended to configurations that have continuous degrees of freedom.\cite{Humeniuk2012:ExtendedEnsemble}  In practice, the $A$ spin matching condition becomes increasingly difficult to satisfy as the $A$ subregion grows, so we employ an increment trick used in both [\onlinecite{Hastings2010:MeasuringRenyiQMC}] and [\onlinecite{Humeniuk2012:ExtendedEnsemble}].  
+where $Z^{\alpha}$ consists of $\alpha$ copies of the regular partition function, and $Z^{(\alpha)}_{A}$ has a modified trace condition in the $A$ subregion, which extends over all copies.  An example of each type of configuration is given in Fig. \ref{fig:ExtendedEnsemble} for the case $\alpha=2$.  
 
-We note that the modified partition function $Z^{(2)}_{A}$ locally breaks translational invariance at a point joining the $A$ and $B$ subsystems.\cite{Cardy2010:Unusual}  This leads to oscillations in the R\'{e}nyi entanglement entropy under periodic boundary conditions.  The von Neumann entanglement entropy lacks these oscillations under periodic boundary conditions as it is free from this defect.  Both the R\'{e}nyi and von Neumann entanglement entropies can have oscillatory terms under open boundaries due to the breaking of translational invariance at the edges of the chain.
-
-\begin{figure}[htb]
+\begin{figure}[h]
 \centering
 \begin{tabular}{m{.13\textwidth} m{.07\textwidth} m{.13\textwidth}} 
 \includegraphics[width=.13\textwidth]{12chain_z2_test_cropped1.pdf} & 
@@ -319,6 +316,18 @@ We note that the modified partition function $Z^{(2)}_{A}$ locally breaks transl
 \caption{Configuration of $Z^{2}$ (left) and $Z^{(2)}_{A}$ (right).  A transition from left to right can be made when the $A$ spins in both copies match each other.  Transitions from right to left are made when the $A$ spins in the middle match the $A$ spins in the outer trace. }
 \label{fig:ExtendedEnsemble}
 \end{figure}
+
+
+
+To compute the Monte Carlo average of the ratio of partition functions, one preforms importance sampling of the extended ensemble of configurations contained in $Z^{\alpha} \cup Z^{(\alpha)}_{A}$.  Transitions between ensembles can be made when the spin matching condition is satisfied in the $A$ subregion.  In this way, the ratio is given by the number of Monte Carlo steps preformed in $Z^{(\alpha)}_{A}$, divided by the number of Monte Carlo steps preformed in $Z^{\alpha}$
+{\allowdisplaybreaks
+\begin{equation}
+\Bigg\langle\frac{Z^{(\alpha)}_{A}}{Z^{\alpha}}\Bigg\rangle=\Bigg\langle\frac{MC_{step}(Z^{(\alpha)}_{A})}{MC_{step}(Z^{\alpha})}\Bigg\rangle_{MC}	 
+\label{eq:RatioAverage}
+\end{equation}}Sampling the extended ensemble in the SSE is particularly straightforward, since transitions between ensembles occurs with probability 1 whenever the spin matching condition is satisfied in the $A$ subregion.  This is due to the fact that the two configurations have identical weights (number of bond operators), though this idea can be extended to configurations that have continuous degrees of freedom.\cite{Humeniuk2012:ExtendedEnsemble}  In practice, the $A$ spin matching condition becomes increasingly difficult to satisfy as the $A$ subregion grows, so we employ an increment trick used in both [\onlinecite{Hastings2010:MeasuringRenyiQMC}] and [\onlinecite{Humeniuk2012:ExtendedEnsemble}].  Through slightly more sophisticated methods\cite{Luitz2014:ImprovingRenyiQMC} it is possible to greatly improve this measurement, although these methods were not employed here.    
+
+We note that the modified partition function $Z^{(2)}_{A}$ locally breaks translational invariance at a point joining the $A$ and $B$ subsystems.\cite{Cardy2010:Unusual}  This leads to oscillations in the R\'{e}nyi entanglement entropy under periodic boundary conditions.  The von Neumann entanglement entropy lacks these oscillations under periodic boundary conditions as it is free from this defect.  Both the R\'{e}nyi and von Neumann entanglement entropies can have oscillatory terms under open boundaries due to the breaking of translational invariance at the edges of the chain.
+
 
 
 

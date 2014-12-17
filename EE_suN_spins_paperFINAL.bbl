@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{29}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -80,6 +80,32 @@
   \textbf{\bibinfo{volume}{2011}}, \bibinfo{pages}{P01017}
   (\bibinfo{year}{2011}).
 
+\bibitem[{\citenamefont{Xavier and
+  Alcaraz}(2012)}]{Xavier2012:FiniteSizeCorrectionsEE}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Xavier}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Alcaraz}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{85}},
+  \bibinfo{pages}{024418} (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Xavier and Alcaraz}(2011)}]{Xavier2011:ParitySpinS}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Xavier}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Alcaraz}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{83}},
+  \bibinfo{pages}{214425} (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Dalmonte et~al.}(2011)\citenamefont{Dalmonte,
+  Ercolessi, and Taddia}}]{Dalmonte2011:EstimatingOrder}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Dalmonte}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Ercolessi}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Taddia}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{84}},
+  \bibinfo{pages}{085110} (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Sutherland}(1975)}]{Sutherland1975:MulticompModel}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Sutherland}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{12}},
+  \bibinfo{pages}{3795} (\bibinfo{year}{1975}).
+
 \bibitem[{\citenamefont{Affleck}(1986)}]{Affleck1986:CriticalExpSUN}
 \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Affleck}},
   \bibinfo{journal}{Nucl. Phys. B} \textbf{\bibinfo{volume}{265}},
@@ -90,6 +116,32 @@
   \bibinfo{journal}{Nucl. Phys. B} \textbf{\bibinfo{volume}{305}},
   \bibinfo{pages}{582 } (\bibinfo{year}{1988}).
 
+\bibitem[{\citenamefont{Gorshkov et~al.}(2010)\citenamefont{Gorshkov, Hermele,
+  Gurarie, Xu, Julienne, Ye, Zoller, Demler, Lukin, and
+  Rey}}]{Gorshkov2010:TwoOrbitalSUN}
+\bibinfo{author}{\bibfnamefont{A.~V.} \bibnamefont{Gorshkov}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Hermele}},
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Gurarie}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Xu}},
+  \bibinfo{author}{\bibfnamefont{P.~S.} \bibnamefont{Julienne}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Ye}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Zoller}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Demler}},
+  \bibinfo{author}{\bibfnamefont{M.~D.} \bibnamefont{Lukin}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{Rey}},
+  \bibinfo{journal}{Nat Phys} \textbf{\bibinfo{volume}{6}},
+  \bibinfo{pages}{289} (\bibinfo{year}{2010}), ISSN \bibinfo{issn}{1745-2473}.
+
+\bibitem[{\citenamefont{Manmana et~al.}(2011)\citenamefont{Manmana, Hazzard,
+  Chen, Feiguin, and Rey}}]{Manmana2011:SUNmagnetismUCA}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Manmana}},
+  \bibinfo{author}{\bibfnamefont{K.~R.} \bibnamefont{Hazzard}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Chen}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Feiguin}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{Rey}},
+  \bibinfo{journal}{Phys. Rev. A} \textbf{\bibinfo{volume}{84}},
+  \bibinfo{pages}{043601} (\bibinfo{year}{2011}).
+
 \bibitem[{\citenamefont{F\"{u}hringer et~al.}(2008)\citenamefont{F\"{u}hringer,
   Rachel, Thomale, Greiter, and Schmitteckert}}]{Fuhringer2008:DMRGSUN}
 \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{F\"{u}hringer}},
@@ -99,6 +151,28 @@
   \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Schmitteckert}},
   \bibinfo{journal}{Annalen der Physik} \textbf{\bibinfo{volume}{17}},
   \bibinfo{pages}{922} (\bibinfo{year}{2008}).
+
+\bibitem[{\citenamefont{Frischmuth et~al.}(1999)\citenamefont{Frischmuth, Mila,
+  and Troyer}}]{Frischmuth1999:ThermoSU4}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Frischmuth}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Mila}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Troyer}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{82}},
+  \bibinfo{pages}{835} (\bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Messio and Mila}(2012)}]{Messio2012:entropyDep}
+\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Messio}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Mila}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{109}},
+  \bibinfo{pages}{205306} (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Song et~al.}(2010)\citenamefont{Song, Rachel, and
+  Le~Hur}}]{Song2010:EntanglementFluctuations}
+\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Song}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Rachel}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Le~Hur}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{82}},
+  \bibinfo{pages}{012405} (\bibinfo{year}{2010}).
 
 \bibitem[{\citenamefont{Humeniuk and
   Roscilde}(2012)}]{Humeniuk2012:ExtendedEnsemble}
@@ -112,12 +186,6 @@
   \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Qin}}, \bibinfo{journal}{J.
   Phys. A} \textbf{\bibinfo{volume}{32}}, \bibinfo{pages}{7815}
   (\bibinfo{year}{1999}).
-
-\bibitem[{\citenamefont{Messio and Mila}(2012)}]{Messio2012:entropyDep}
-\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Messio}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Mila}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{109}},
-  \bibinfo{pages}{205306} (\bibinfo{year}{2012}).
 
 \bibitem[{\citenamefont{Rachel et~al.}(2009)\citenamefont{Rachel, Thomale,
   F\"uhringer, Schmitteckert, and Greiter}}]{Rachel2009:SpinonConfinement}
@@ -142,15 +210,6 @@
   \bibinfo{journal}{AIP Conf. Proc.} \textbf{\bibinfo{volume}{1297}},
   \bibinfo{pages}{135} (\bibinfo{year}{2010}).
 
-\bibitem[{\citenamefont{Frischmuth et~al.}(1999)\citenamefont{Frischmuth, Mila,
-  and Troyer}}]{frischmuth1999:su4}
-\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Frischmuth}},
-  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Mila}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Troyer}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{82}},
-  \bibinfo{pages}{835} (\bibinfo{year}{1999}),
-  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.82.835}.
-
 \bibitem[{\citenamefont{Melko et~al.}(2010)\citenamefont{Melko, Kallin, and
   Hastings}}]{Melko2010:FiniteTRenyi}
 \bibinfo{author}{\bibfnamefont{R.~G.} \bibnamefont{Melko}},
@@ -168,5 +227,14 @@
   \bibnamefont{and} \bibinfo{author}{\bibfnamefont{R.~G.} \bibnamefont{Melko}},
   \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{104}},
   \bibinfo{pages}{157201} (\bibinfo{year}{2010}).
+
+\bibitem[{\citenamefont{Luitz et~al.}(2014)\citenamefont{Luitz, Plat,
+  Laflorencie, and Alet}}]{Luitz2014:ImprovingRenyiQMC}
+\bibinfo{author}{\bibfnamefont{D.~J.} \bibnamefont{Luitz}},
+  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Plat}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Laflorencie}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Alet}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{90}},
+  \bibinfo{pages}{125105} (\bibinfo{year}{2014}).
 
 \end{thebibliography}
